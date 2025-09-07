@@ -4,7 +4,7 @@ App.BaseDirectory=./squad-dedicated-server/403240/
 App.CommandLineArgs=MULTIHOME={{$ApplicationIPBinding}} Port={{$ApplicationPort1}} QueryPort={{$ApplicationPort2}} RCONPORT={{$RemoteAdminPort}} RCONPASSWORD={{$RemoteAdminPassword}} FIXEDMAXTICKRATE={{MaxTPS}} -beaconport={{$ApplicationPort3}} -log -fullcrashdump
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat={0}="{1}"
-App.DisplayName=Squad
+App.DisplayName=SquadSingle
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullRootDir}}403240/linux64:%LD_LIBRARY_PATH%","SteamAppId":"393380"}
 App.ExecutableLinux=403240/SquadGame/Binaries/Linux/SquadGameServer
 App.ExecutableWin=403240\SquadGame\Binaries\Win64\SquadGameServer.exe
